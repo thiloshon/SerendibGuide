@@ -7,6 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:largeHeap="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".listListActivity"
@@ -31,11 +32,25 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
+            <!--<intent-filter>
+                &lt;!&ndash;<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />&ndash;&gt;
+            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".splashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".attractionsActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
+
 
 </manifest>

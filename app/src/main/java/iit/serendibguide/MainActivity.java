@@ -1,6 +1,7 @@
 package iit.serendibguide;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -243,6 +244,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
+            Intent intent = new Intent(this, attractionsActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_share) {
 
