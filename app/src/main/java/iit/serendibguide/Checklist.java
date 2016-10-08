@@ -37,6 +37,9 @@ public class Checklist extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
+
+
         // get the listview
         ExpandableListView expListView = (ExpandableListView) findViewById(R.id.expandableListView2);
 
@@ -58,9 +61,8 @@ public class Checklist extends AppCompatActivity {
         });
 
 
-        TextView text = (TextView) findViewById(R.id.lblListItem);
-        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/OpenSans-Light.ttf");
-        text.setTypeface(tf);
+
+
 
 
 
@@ -75,19 +77,19 @@ public class Checklist extends AppCompatActivity {
         listDataChild = new HashMap<String, List<String>>();
 
         // Adding child data
-        listDataHeader.add("Su");
-        listDataHeader.add("Now Showing");
-        listDataHeader.add("Coming Soon..");
+        listDataHeader.add("Surfing");
+        listDataHeader.add("Bird Watching");
+        listDataHeader.add("Safari");
 
         // Adding child data
         List<String> top250 = new ArrayList<String>();
-        top250.add("The Shawshank Redemption");
-        top250.add("The Godfather");
-        top250.add("The Godfather: Part II");
-        top250.add("Pulp Fiction");
-        top250.add("The Good, the Bad and the Ugly");
-        top250.add("The Dark Knight");
-        top250.add("12 Angry Men");
+        top250.add("Sun Screen");
+        top250.add("Spare Towel");
+        top250.add("Surf Board");
+        top250.add("Sandles");
+        top250.add("Face Wash");
+        top250.add("GoPro");
+
 
         List<String> nowShowing = new ArrayList<String>();
         nowShowing.add("The Conjuring");

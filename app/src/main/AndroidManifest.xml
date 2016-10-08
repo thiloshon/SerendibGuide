@@ -58,7 +58,8 @@
         <activity
             android:name=".Checklist"
             android:label="@string/title_activity_checklist"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".route"></activity>
     </application>
 
 </manifest>

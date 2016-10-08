@@ -2,18 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="55dip"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:paddingLeft="10dp">
 
     <TextView
         android:id="@+id/lblListItem"
-        android:fontFamily=""
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textSize="17dip"
-        android:textColor="#fefcff"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
         android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
-        android:background="@color/accent_material_light" />
+        android:background="@color/accent_material_light"
+        android:textSize="18sp"
+        android:textColor="#dcd9cd"
+        android:fontFamily="sans-serif" />
 
 </LinearLayout>
