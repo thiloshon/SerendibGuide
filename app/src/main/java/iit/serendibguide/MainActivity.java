@@ -164,10 +164,10 @@ public class MainActivity extends AppCompatActivity
         SliderLayout mDemoSlider = (SliderLayout)findViewById(R.id.slider);
 
         HashMap<String,Integer> file_maps = new HashMap<String, Integer>();
-        file_maps.put("Hannibal",R.drawable.poster);
-        file_maps.put("Big Bang Theory",R.drawable.poster);
-        file_maps.put("House of Cards",R.drawable.poster);
-        file_maps.put("Game of Thrones", R.drawable.poster);
+        file_maps.put("British Academy Film Awards, October 2016",R.drawable.poster2);
+        file_maps.put("Enceladus: Festival Karsh, November 2016",R.drawable.poster5);
+        file_maps.put("Indie Rock Festival, December 2016",R.drawable.poster4);
+        file_maps.put("Enceladus: Festival Karsh, November 2016", R.drawable.poster5);
 
         for(String name : file_maps.keySet()){
             TextSliderView textSliderView = new TextSliderView(this);
